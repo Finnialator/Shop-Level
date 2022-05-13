@@ -31077,12 +31077,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 862431465}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 78.059, y: 2.727, z: 46.758}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 1617048438}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &865769721
 PrefabInstance:
@@ -31227,11 +31227,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3865307284308208299, guid: 6f81612b9787d4ffb88f56609ec48f6b, type: 3}
       propertyPath: chaseSpeed
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3865307284308208299, guid: 6f81612b9787d4ffb88f56609ec48f6b, type: 3}
       propertyPath: patrolSpeed
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3865307284308208299, guid: 6f81612b9787d4ffb88f56609ec48f6b, type: 3}
       propertyPath: wayPoints.Array.data[0]
@@ -42716,11 +42716,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3865307284308208299, guid: 6f81612b9787d4ffb88f56609ec48f6b, type: 3}
       propertyPath: chaseSpeed
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3865307284308208299, guid: 6f81612b9787d4ffb88f56609ec48f6b, type: 3}
       propertyPath: patrolSpeed
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3865307284308208299, guid: 6f81612b9787d4ffb88f56609ec48f6b, type: 3}
       propertyPath: wayPoints.Array.data[0]
@@ -53423,8 +53423,8 @@ Transform:
   m_LocalPosition: {x: 77.819, y: 2.773, z: 46.654}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 1617048438}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 152.35, y: -120.17999, z: -5.455017}
 --- !u!43 &1578277394
 Mesh:
@@ -54602,6 +54602,8 @@ Transform:
   m_Children:
   - {fileID: 1424517068}
   - {fileID: 1012057026}
+  - {fileID: 862431467}
+  - {fileID: 1576667493}
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
