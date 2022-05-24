@@ -8,6 +8,8 @@ TagManager:
   - PlayerBody
   - Environment
   - Patrol Target
+  - StartPoint
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
